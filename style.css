@@ -269,3 +269,17 @@ footer {
         flex-basis: 80%;
     }
 }
+/* Ajustes para o botão de contato */
+.contact .cta-button {
+ padding: 1rem 1.5rem; /* Reduzindo o padding horizontal */
+ font-size: 1rem; /* Reduzindo a fonte para telas menores */
+}
+
+
+/* Media query para telas menores (ex: tablets e smartphones) */
+@media (max-width: 600px) {
+ .contact .cta-button {
+ padding: 0.8rem 1.2rem; /* Redução ainda maior em telas menores */
+ font-size: 0.9rem;
+ }
+}

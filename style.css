@@ -280,6 +280,6 @@ footer {
 @media (max-width: 600px) {
  .contact .cta-button {
  padding: 0.8rem 1.2rem; /* Redução ainda maior em telas menores */
- font-size: 0.9rem;
+ font-size: 0.7rem;
  }
 }
